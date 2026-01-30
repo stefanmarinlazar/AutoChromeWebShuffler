@@ -2,8 +2,6 @@ chrome.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === "randomNav") {
     const randomizers = [
       "https://en.wikipedia.org/wiki/Special:Random",
-      "https://www.google.com/search?q=random+topic&btnI",
-      "https://random-website.com/",
       "https://en.m.wiktionary.org/wiki/Special:Random"
     ];
 
